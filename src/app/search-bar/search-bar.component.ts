@@ -13,7 +13,7 @@ export class SearchBarComponent implements OnInit {
   myControl: FormControl = new FormControl();
   options: string[] = [];
   filteredOptions: string[];
-  produceList: Produce[];
+  produceList: Produce[] = [];
   loadingIsDone: boolean = true;
   
   constructor(private produceService: ProduceService) {}
@@ -31,6 +31,7 @@ export class SearchBarComponent implements OnInit {
       name => {
         if(name.trim() == '') {
           this.options = [];
+          this.produceList = [];
         }
         else {
           this.loadingIsDone = false;
