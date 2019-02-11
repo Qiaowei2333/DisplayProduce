@@ -1,3 +1,7 @@
+# Important
+
+Please make sure to add "Allow-Control-Allow-Origin: *" in chrome extension. Otherwise, the data transmission will be blocked by CORS policy.
+
 # DisplayProduce
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.0.
