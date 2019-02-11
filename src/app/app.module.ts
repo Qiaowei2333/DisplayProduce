@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatInputModule, MatFormFieldModule, MatAutocompleteModule, MatProgressBarModule } from '@angular/material';
+import { MatInputModule, MatFormFieldModule, MatAutocompleteModule, MatProgressBarModule, MatListModule } from '@angular/material';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
@@ -23,6 +23,7 @@ import { ProduceDetailComponent } from './produce-detail/produce-detail.componen
     MatFormFieldModule,
     MatAutocompleteModule,
     MatProgressBarModule,
+    MatListModule,
     HttpClientModule
   ],
   providers: [],
