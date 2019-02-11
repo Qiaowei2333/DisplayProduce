@@ -3,6 +3,7 @@
   <mat-list-item> Category: {{produce['category']}} </mat-list-item>
   <mat-list-item> Brand: {{produce['brand']}} </mat-list-item>
   <mat-list-item> Price Per Pound: {{produce['price per pound']}} </mat-list-item>
-  <mat-list-item> availability: {{produce['availability']}} </mat-list-item>
+  <mat-list-item> Availability: {{produce['availability']}} </mat-list-item>
+  <mat-list-item> Location In Sotre: {{produce['location in store']['aisle']}} </mat-list-item>
   <mat-divider *ngIf="i!=produceList.length-1"></mat-divider>
 </mat-list>
